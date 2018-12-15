@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>bnc_app_key</key>
-	<string>36930236817866882</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -29,7 +27,6 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>branchsters</string>
 				<string>fb288726397999326</string>
 			</array>
 		</dict>

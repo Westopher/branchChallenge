@@ -1,0 +1,20 @@
+PODS:
+  - Branch (0.12.14):
+    - Branch/Core (= 0.12.14)
+    - Branch/without-IDFA (= 0.12.14)
+  - Branch/Core (0.12.14)
+  - Branch/without-IDFA (0.12.14)
+
+DEPENDENCIES:
+  - Branch
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Branch
+
+SPEC CHECKSUMS:
+  Branch: 5ee800cf8cf72e0ed3360793348ef36f557456d3
+
+PODFILE CHECKSUM: 9a3e0cb79de1e02fe2584bf06fe678d7afc266b3
+
+COCOAPODS: 1.5.3
