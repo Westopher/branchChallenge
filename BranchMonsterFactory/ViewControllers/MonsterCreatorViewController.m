@@ -38,6 +38,31 @@ static CGFloat SIDE_SPACE = 7.0;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    //track custom event of going to Monster Create VC
+    [BranchEvent.customEventWithName(@"monster_edit") logEvent];
+    
+    curl -vvv -d '{
+    "name": "monster_edit",
+    "user_data": {
+        "os": "iOS",
+        "os_version": 25,
+        "environment": "FULL_APP",
+        "limit_ad_tracking": false,
+        "developer_identity": "user123",
+        "country": "US",
+        "language": "en",
+        "local_ip": "192.168.1.2",
+        "brand": "LGE",
+        "app_version": "1.0.0",
+        "model": "Nexus 5X",
+        "screen_dpi": 420,
+        "screen_height": 1794,
+        "screen_width": 1080
+    },
+    "metadata": {},
+    "branch_key": "key_live_ihUfwv0dysVdclN2LEZIwdbbxugOn14n"
+}' https://api.branch.io/v2/event/custom
 
     for (int i = 0; i < [self.colorViews count]; i++) {
         UIView *currView = [self.colorViews objectAtIndex:i];
